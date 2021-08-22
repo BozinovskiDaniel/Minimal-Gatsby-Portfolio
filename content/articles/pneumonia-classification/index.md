@@ -4,7 +4,7 @@ description: "This description will be used for the article listing and search r
 date: "2021-08-22"
 banner:
   src: "../../images/pneumonia-clf.jpg"
-  alt: "First Post"
+  alt: "Pneumonia Image Classification"
   caption: 'Photo by <u><a href="https://www.pexels.com/photo/technology-computer-room-doctor-7088524/">Mart Production</a></u>'
 categories:
   - "Machine Learning"

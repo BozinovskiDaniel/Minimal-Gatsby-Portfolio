@@ -44,7 +44,7 @@
     },
     {
       "visible": true,
-      "category": "🏢 Hotel Booking Website (Frontend)",
+      "category": "🏢 Hotel Booking",
       "title": "Hotel CoCo",
       "description": "Front-end application for a hotel booking website (No backend)",
       "tags": ["HTML", "CSS", "jQuery", "SASS"],
@@ -66,7 +66,7 @@
   ],
   "button": {
     "visible": true,
-    "label": "Visit Me on Github",
+    "label": "See More on Github",
     "url": "https://github.com/bozinovskidaniel"
   }
 }

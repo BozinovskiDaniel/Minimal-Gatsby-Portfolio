@@ -14,7 +14,6 @@
 
 exports.ssrComponents = {
   "component---cache-dev-404-page-js": preferDefault(__webpack_require__(/*! ./.cache/dev-404-page.js */ "./.cache/dev-404-page.js")),
-  "component---node-modules-gatsby-theme-portfolio-minimal-src-templates-article-index-tsx": preferDefault(__webpack_require__(/*! ./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/index.tsx */ "./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/index.tsx")),
   "component---src-pages-index-js": preferDefault(__webpack_require__(/*! ./src/pages/index.js */ "./src/pages/index.js"))
   }
 
@@ -3111,31 +3110,6 @@ var ReadingTime = "style-module--ReadingTime--1VwUB";
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-theme-portfolio-minimal/src/components/AuthorSnippet/style.module.css":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/gatsby-theme-portfolio-minimal/src/components/AuthorSnippet/style.module.css ***!
-  \***************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AuthorSnippet": () => (/* binding */ AuthorSnippet),
-/* harmony export */   "Avatar": () => (/* binding */ Avatar),
-/* harmony export */   "Description": () => (/* binding */ Description),
-/* harmony export */   "WrittenBy": () => (/* binding */ WrittenBy),
-/* harmony export */   "Bio": () => (/* binding */ Bio)
-/* harmony export */ });
-// Exports
-var AuthorSnippet = "style-module--AuthorSnippet--1WqiA";
-var Avatar = "style-module--Avatar--3H9UD";
-var Description = "style-module--Description--1qf6p";
-var WrittenBy = "style-module--WrittenBy--3LhbS";
-var Bio = "style-module--Bio--3zNNK";
-
-
-/***/ }),
-
 /***/ "./node_modules/gatsby-theme-portfolio-minimal/src/components/Button/style.module.css":
 /*!********************************************************************************************!*\
   !*** ./node_modules/gatsby-theme-portfolio-minimal/src/components/Button/style.module.css ***!
@@ -3497,49 +3471,6 @@ __webpack_require__.r(__webpack_exports__);
 // Exports
 var Projects = "style-module--Projects--2GtfJ";
 var MoreProjects = "style-module--MoreProjects--6Iz1E";
-
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/style.module.css":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/style.module.css ***!
-  \********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Breadcrumb": () => (/* binding */ Breadcrumb),
-/* harmony export */   "BackArrow": () => (/* binding */ BackArrow),
-/* harmony export */   "Article": () => (/* binding */ Article),
-/* harmony export */   "Header": () => (/* binding */ Header),
-/* harmony export */   "Banner": () => (/* binding */ Banner),
-/* harmony export */   "Body": () => (/* binding */ Body),
-/* harmony export */   "Footer": () => (/* binding */ Footer),
-/* harmony export */   "Category": () => (/* binding */ Category),
-/* harmony export */   "Details": () => (/* binding */ Details),
-/* harmony export */   "ReadingTime": () => (/* binding */ ReadingTime),
-/* harmony export */   "BannerImage": () => (/* binding */ BannerImage),
-/* harmony export */   "BannerCaption": () => (/* binding */ BannerCaption),
-/* harmony export */   "Content": () => (/* binding */ Content),
-/* harmony export */   "Keyword": () => (/* binding */ Keyword)
-/* harmony export */ });
-// Exports
-var Breadcrumb = "style-module--Breadcrumb--3CQ3F";
-var BackArrow = "style-module--BackArrow--PCTBU";
-var Article = "style-module--Article--3bit0";
-var Header = "style-module--Header--2o6vM";
-var Banner = "style-module--Banner--1yLz4";
-var Body = "style-module--Body--28-CZ";
-var Footer = "style-module--Footer--2gJ0t";
-var Category = "style-module--Category--3qN-O";
-var Details = "style-module--Details--25EFE";
-var ReadingTime = "style-module--ReadingTime--xgmS5";
-var BannerImage = "style-module--BannerImage--2qR0v";
-var BannerCaption = "style-module--BannerCaption--2NW7F";
-var Content = "style-module--Content--2ZUvc";
-var Keyword = "style-module--Keyword--x4D4s";
 
 
 /***/ }),
@@ -14334,49 +14265,6 @@ function formatDate(date) {
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-theme-portfolio-minimal/src/components/AuthorSnippet/index.tsx":
-/*!********************************************************************************************!*\
-  !*** ./node_modules/gatsby-theme-portfolio-minimal/src/components/AuthorSnippet/index.tsx ***!
-  \********************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "AuthorSnippet": () => (/* binding */ AuthorSnippet)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../hooks/useSiteMetadata */ "./node_modules/gatsby-theme-portfolio-minimal/src/hooks/useSiteMetadata.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.module.css */ "./node_modules/gatsby-theme-portfolio-minimal/src/components/AuthorSnippet/style.module.css");
-
-
-
-
-function AuthorSnippet() {
-  const {
-    author,
-    avatar,
-    bio
-  } = (0,_hooks_useSiteMetadata__WEBPACK_IMPORTED_MODULE_1__.useSiteMetadata)();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.AuthorSnippet
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_3__.GatsbyImage, {
-    image: avatar.childImageSharp.gatsbyImageData,
-    alt: author,
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Avatar
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Description
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.WrittenBy
-  }, "Written By ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("u", null, author)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_2__.Bio
-  }, bio)));
-}
-
-/***/ }),
-
 /***/ "./node_modules/gatsby-theme-portfolio-minimal/src/components/Button/index.tsx":
 /*!*************************************************************************************!*\
   !*** ./node_modules/gatsby-theme-portfolio-minimal/src/components/Button/index.tsx ***!
@@ -16448,85 +16336,6 @@ function ProjectsSection(props) {
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/index.tsx":
-/*!*************************************************************************************!*\
-  !*** ./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/index.tsx ***!
-  \*************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ ArticleTemplate)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _components_Page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Page */ "./node_modules/gatsby-theme-portfolio-minimal/src/components/Page/index.tsx");
-/* harmony import */ var _components_Seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/Seo */ "./node_modules/gatsby-theme-portfolio-minimal/src/components/Seo/index.tsx");
-/* harmony import */ var _components_AuthorSnippet__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/AuthorSnippet */ "./node_modules/gatsby-theme-portfolio-minimal/src/components/AuthorSnippet/index.tsx");
-/* harmony import */ var _style_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.module.css */ "./node_modules/gatsby-theme-portfolio-minimal/src/templates/Article/style.module.css");
-
-
-
-
-
-
-
-function ArticleTemplate(props) {
-  const article = props.pageContext.article;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Seo__WEBPACK_IMPORTED_MODULE_3__.Seo, {
-    title: article.title,
-    description: article.description || undefined,
-    useTitleTemplate: true
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_Page__WEBPACK_IMPORTED_MODULE_2__.Page, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("article", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Article
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Breadcrumb
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: props.pageContext.listingPagePath,
-    title: "Back To Article Listing"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.BackArrow
-  }, "\u276E"), "All Articles")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Header
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Category
-  }, article.categories.join(' / ')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, article.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Details
-  }, article.date, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.ReadingTime
-  }, article.readingTime.text))), article.banner && article.banner.src && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Banner
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_6__.GatsbyImage, {
-    image: article.banner.src.childImageSharp.gatsbyImageData,
-    alt: article.banner.alt || `Image for ${article.title}`,
-    imgClassName: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.BannerImage
-  }), article.banner.caption && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.BannerCaption,
-    dangerouslySetInnerHTML: {
-      __html: article.banner.caption
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Body
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Content,
-    dangerouslySetInnerHTML: {
-      __html: article.body
-    }
-  }), article.keywords && article.keywords.map((keyword, key) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
-      key: key,
-      className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Keyword
-    }, keyword);
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("section", {
-    className: _style_module_css__WEBPACK_IMPORTED_MODULE_5__.Footer
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_AuthorSnippet__WEBPACK_IMPORTED_MODULE_4__.AuthorSnippet, null)))));
-}
-
-/***/ }),
-
 /***/ "./.cache/api-runner-ssr.js":
 /*!**********************************!*\
   !*** ./.cache/api-runner-ssr.js ***!
@@ -16564,13 +16373,13 @@ var plugins = [{
     "background_color": "#FFFFFF",
     "theme_color": "#000000",
     "display": "minimal-ui",
-    "icon": "./content/images/favicon.png",
+    "icon": "./content/images/mountain.png",
     "legacy": true,
     "theme_color_in_head": true,
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "d48eafceaf44a7dcd7ae15ab27bfe91b"
+    "cacheDigest": "a3a73613276dea9ab721e5096e3c92a6"
   }
 }, {
   name: 'gatsby-plugin-offline',
@@ -19763,7 +19572,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function IndexPage() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.Seo, {
-    title: "Daniel Bozinovski Portfolio"
+    title: "Daniel Bozinovski | Software Engineer"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.Page, {
     useSplashScreenAnimation: true
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.HeroSection, {
@@ -19782,8 +19591,8 @@ function IndexPage() {
     sectionId: "projects",
     heading: "Projects"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby_theme_portfolio_minimal__WEBPACK_IMPORTED_MODULE_1__.ContactSection, {
-    sectionId: "github",
-    heading: "Issues?"
+    sectionId: "contact",
+    heading: "Conact Me"
   })));
 }
 
@@ -60721,7 +60530,7 @@ function cleanupCookieValue(value) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteConfiguration":{"featureToggles":{"useCookieBar":false,"useDarkModeAsDefault":false,"useDarkModeBasedOnUsersPreference":true},"logo":{"text":"BozinovskiDaniel"},"navigation":{"ctaButton":{"label":"Resume","openNewTab":true,"url":"/resume.pdf"},"footer":[{"label":"Privacy","url":"/privacy"},{"label":"Imprint","url":"/imprint"}],"header":[{"label":"About","url":"/#about"},{"label":"Blog","url":"/blog"},{"label":"Projects","url":"/#projects"},{"label":"Github","url":"/#github"}]}}}]}}}');
+module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteConfiguration":{"featureToggles":{"useCookieBar":false,"useDarkModeAsDefault":false,"useDarkModeBasedOnUsersPreference":true},"logo":{"text":"BozinovskiDaniel"},"navigation":{"ctaButton":{"label":"Resume","openNewTab":true,"url":"/resume.pdf"},"footer":[{"label":"Privacy","url":"/privacy"}],"header":[{"label":"About","url":"/#about"},{"label":"Blog","url":"/blog"},{"label":"Projects","url":"/#projects"},{"label":"Contact","url":"/#contact"}]}}}]}}}');
 
 /***/ }),
 
@@ -60754,7 +60563,7 @@ module.exports = JSON.parse('{"data":{"allInterestsJson":{"sections":[{"button":
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allContactJson":{"sections":[{"description":"If there are any technical issues on this website, send me an email!","email":"BozinovskiDaniel@hotmail.com","image":{"alt":"Daniel","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAAVABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAgJAwUGB//EABgBAAIDAAAAAAAAAAAAAAAAAAMEAgUG/9oADAMBAAIQAxAAAAGtOeMH8gNPzLZIkstiUOVnlQTd/8QAGhAAAgMBAQAAAAAAAAAAAAAAAwQBAgUHBv/aAAgBAQABBQLFzmd/ZW8zy1Ajawk2IsU6ScVmuiGwT805N5naxTqLZ59sM2Y//8QAIxEAAQMEAgEFAAAAAAAAAAAAAQIDEQASITEiQQQFI1Fxgf/aAAgBAwEBPwHxXkJUvi26r4VPt2nFokRyzMQQO90IjGuvr9r0wl3wkOucnC5YVaJSFvABURdhI3J72TUkV//EACQRAAEEAQMDBQAAAAAAAAAAAAECAxESIQAEIgUxQRNCcYGx/9oACAECAQE/Adxs3naS86yhTYOE8VhVTNs248aiKmbeU6KYMEkx5xntnECfgfWnlKT1be7cKV6DbbKm2iolCCWmJoCTWbGQmAfPYaWTdWfcf3X/xAApEAACAgEDAwMDBQAAAAAAAAACAwEEEQUSIQATQRQiMQYjgTJCUVPx/9oACAEBAAY/AtL0VMygtW1Glp8WCURin1LRT3S5HIqE5bIbw37MbomY61UKv1NX1G5oiBGmGomFehYv5Ull6yD1JVbQwnOUunXOzNeYJ7DPtCYtqptKuprmalW0iyE2VgUwLld0Vs2Mj3RJgM8/GMFITUWRzBEowUczIAIf1RiJE2kRQQ5mJ4nx13HgxtiRkQhu6ZGY9scT+gYxj9uI9sfx0IlwcqEijHmSP/fOPjx1r1m2eo+pGmiaTRtSHoXNpnbJ4AuAFxbwEIF+8O1vGRkighapK5Lt7cMaXcZO9YO5meMx3NuccxGfPVdpMmSdVhk8YgcWLC8Rz8fbz+fz1//EABoQAQEBAQEBAQAAAAAAAAAAAAERIQBBMVH/2gAIAQEAAT8hcCE5Yn46qAqOLhz+byQbsX9N34VNPtKK+tdJNfrRY1+kNZBp0MNF3J1D9JtpOGK4BIW+OsEDR08QCjenCeH9/VXsSJNAyKtXW0iuNMufgH+ULuhWV//aAAwDAQACAAMAAAAQHC/9/8QAGxEBAQEAAgMAAAAAAAAAAAAAAREhADFBcZH/2gAIAQMBAT8QdJSiQQmEdiyzITmACBAAqAwBSwMKrPLx2OgIuoOGs0GqHADACAAGHWevhz//xAAZEQEBAAMBAAAAAAAAAAAAAAABEQAxUaH/2gAIAQIBAT8QfQwJNRT2oDUGnB2awLAoKQAW0AHQAEc9AG8zhb2BELBiqvXiDzP/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMRD/2gAIAQEAAT8QYeoLXkN0/wAIUTx5OkuhFbhQI8/8e6tNbAWkKFFg5WRw42zIte5yVBd6skr8o8SdKBwIJJOlcQ9zdZTN9OpzoT3/ADfIg8gPahuiAiISDCVhw//Z"},"images":{"fallback":{"src":"/static/84c824a9c5d177ed23a592055b129a41/9d0c2/me-cropped.jpg","srcSet":"/static/84c824a9c5d177ed23a592055b129a41/47bd1/me-cropped.jpg 35w,\\n/static/84c824a9c5d177ed23a592055b129a41/ed3cb/me-cropped.jpg 70w,\\n/static/84c824a9c5d177ed23a592055b129a41/9d0c2/me-cropped.jpg 140w,\\n/static/84c824a9c5d177ed23a592055b129a41/4e55a/me-cropped.jpg 280w","sizes":"(min-width: 140px) 140px, 100vw"},"sources":[{"srcSet":"/static/84c824a9c5d177ed23a592055b129a41/3c4a7/me-cropped.webp 35w,\\n/static/84c824a9c5d177ed23a592055b129a41/f8957/me-cropped.webp 70w,\\n/static/84c824a9c5d177ed23a592055b129a41/9f954/me-cropped.webp 140w,\\n/static/84c824a9c5d177ed23a592055b129a41/439ad/me-cropped.webp 280w","type":"image/webp","sizes":"(min-width: 140px) 140px, 100vw"}]},"width":140,"height":149}}}},"name":"Daniel Bozinovski","socialProfiles":{"from":["LinkedIn","Github","Medium","Mail"],"showIcons":true}}]}}}');
+module.exports = JSON.parse('{"data":{"allContactJson":{"sections":[{"description":"Let me know how you found my site, send me an email!","email":"BozinovskiDaniel@hotmail.com","image":{"alt":"Daniel","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/jpeg;base64,/9j/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wgARCAAVABQDASIAAhEBAxEB/8QAGgABAAIDAQAAAAAAAAAAAAAAAAgJAwUGB//EABgBAAIDAAAAAAAAAAAAAAAAAAMEAgUG/9oADAMBAAIQAxAAAAGtOeMH8gNPzLZIkstiUOVnlQTd/8QAGhAAAgMBAQAAAAAAAAAAAAAAAwQBAgUHBv/aAAgBAQABBQLFzmd/ZW8zy1Ajawk2IsU6ScVmuiGwT805N5naxTqLZ59sM2Y//8QAIxEAAQMEAgEFAAAAAAAAAAAAAQIDEQASITEiQQQFI1Fxgf/aAAgBAwEBPwHxXkJUvi26r4VPt2nFokRyzMQQO90IjGuvr9r0wl3wkOucnC5YVaJSFvABURdhI3J72TUkV//EACQRAAEEAQMDBQAAAAAAAAAAAAECAxESIQAEIgUxQRNCcYGx/9oACAECAQE/Adxs3naS86yhTYOE8VhVTNs248aiKmbeU6KYMEkx5xntnECfgfWnlKT1be7cKV6DbbKm2iolCCWmJoCTWbGQmAfPYaWTdWfcf3X/xAApEAACAgEDAwMDBQAAAAAAAAACAwEEEQUSIQATQRQiMQYjgTJCUVPx/9oACAEBAAY/AtL0VMygtW1Glp8WCURin1LRT3S5HIqE5bIbw37MbomY61UKv1NX1G5oiBGmGomFehYv5Ull6yD1JVbQwnOUunXOzNeYJ7DPtCYtqptKuprmalW0iyE2VgUwLld0Vs2Mj3RJgM8/GMFITUWRzBEowUczIAIf1RiJE2kRQQ5mJ4nx13HgxtiRkQhu6ZGY9scT+gYxj9uI9sfx0IlwcqEijHmSP/fOPjx1r1m2eo+pGmiaTRtSHoXNpnbJ4AuAFxbwEIF+8O1vGRkighapK5Lt7cMaXcZO9YO5meMx3NuccxGfPVdpMmSdVhk8YgcWLC8Rz8fbz+fz1//EABoQAQEBAQEBAQAAAAAAAAAAAAERIQBBMVH/2gAIAQEAAT8hcCE5Yn46qAqOLhz+byQbsX9N34VNPtKK+tdJNfrRY1+kNZBp0MNF3J1D9JtpOGK4BIW+OsEDR08QCjenCeH9/VXsSJNAyKtXW0iuNMufgH+ULuhWV//aAAwDAQACAAMAAAAQHC/9/8QAGxEBAQEAAgMAAAAAAAAAAAAAAREhADFBcZH/2gAIAQMBAT8QdJSiQQmEdiyzITmACBAAqAwBSwMKrPLx2OgIuoOGs0GqHADACAAGHWevhz//xAAZEQEBAAMBAAAAAAAAAAAAAAABEQAxUaH/2gAIAQIBAT8QfQwJNRT2oDUGnB2awLAoKQAW0AHQAEc9AG8zhb2BELBiqvXiDzP/xAAZEAEBAQEBAQAAAAAAAAAAAAABEQAhMRD/2gAIAQEAAT8QYeoLXkN0/wAIUTx5OkuhFbhQI8/8e6tNbAWkKFFg5WRw42zIte5yVBd6skr8o8SdKBwIJJOlcQ9zdZTN9OpzoT3/ADfIg8gPahuiAiISDCVhw//Z"},"images":{"fallback":{"src":"/static/84c824a9c5d177ed23a592055b129a41/9d0c2/me-cropped.jpg","srcSet":"/static/84c824a9c5d177ed23a592055b129a41/47bd1/me-cropped.jpg 35w,\\n/static/84c824a9c5d177ed23a592055b129a41/ed3cb/me-cropped.jpg 70w,\\n/static/84c824a9c5d177ed23a592055b129a41/9d0c2/me-cropped.jpg 140w,\\n/static/84c824a9c5d177ed23a592055b129a41/4e55a/me-cropped.jpg 280w","sizes":"(min-width: 140px) 140px, 100vw"},"sources":[{"srcSet":"/static/84c824a9c5d177ed23a592055b129a41/3c4a7/me-cropped.webp 35w,\\n/static/84c824a9c5d177ed23a592055b129a41/f8957/me-cropped.webp 70w,\\n/static/84c824a9c5d177ed23a592055b129a41/9f954/me-cropped.webp 140w,\\n/static/84c824a9c5d177ed23a592055b129a41/439ad/me-cropped.webp 280w","type":"image/webp","sizes":"(min-width: 140px) 140px, 100vw"}]},"width":140,"height":149}}}},"name":"Daniel Bozinovski","socialProfiles":{"from":["LinkedIn","Github","Medium","Mail"],"showIcons":true}}]}}}');
 
 /***/ }),
 
@@ -60776,7 +60585,7 @@ module.exports = JSON.parse('{"data":{"allSettingsJson":{"settings":[{"siteMetad
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allProjectsJson":{"sections":[{"button":{"label":"Visit Me on Github","url":"https://github.com/bozinovskidaniel","visible":true},"projects":[{"category":"💡 Algorithm Visualiser","description":"React JS Application for visualising Path Finding & Sorting Algorithms, including Dijkstra\'s, A*, Breadth First Search, Depth First Search and Greedy BFS.","image":{"alt":"Algorithm Visualiser","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZElEQVQozz3R308SAQDA8ftresqtB8ryR5qmJQVPvbg119p6aOXqtbXV2vrhFikloSgItimXF0LcSRaSutTrwIMI8BcCHicc4nH8OO7Ou0OuXFvb9/Xz9AUYQYTzVKYqCGKtxEsVQWKPZFE8XqQP/SWaF+vMkczw0v9oTirwEivVi4IMvKcSzT70phl6aHXeszrvW539Nlf/GNRsAPtCO2jy4IVlZhjyvJuZ04PIqPNbpsgVBXl7P09zItDp31Kv7bV/32j1bbQuxFoWYk2+7bNIuGHApsbI7ll0wAZxopw4YAi6nKbLh5xY4KW3ILLPsECXP6ZGSY2f0OKZK77YBTN8a4fsxSINOnu3P6dyh9t1UFxQuCNZUhTHEhYlchWprgfhE2yjdjuwSM8qoVlPtyJhtWF4OmFyhZ+8RJ7eCQUfYF7D4mMoMp6vVhVFGZn9GtghWFkZAmGywAKCrEwzZE9oWxvKX/ZGzxvBFsfP6xPWDxQ0mgQn9qb0gcEbsMMZ3Iymss/MH/FdsiQeD4IIQVeAWDrn/7X1aMXX5FpqNMFnhuwdSEA1hlzCy+1ruXOLZNv4vAletrgXbJ6luwPGyF6Wleq6KVeGYQETHmoYmWmzeBotbpVxtvNL6OKnFZUB0mKpq8sbvYHor1KFl+qsXFMUZcLtXY+nqzUF9K5SJQ4oyLU3WaoTJ7TBnCaY1QSpjjn89PMxld5+SjfZN2k3Q57XU5+D8XRNUYyOeXz3BBcF+eRzWZCLvPgqkexC4+q1VA+aUmPENTTV9SN+O7z5mykessIBKxQ4sSweJ3NMtsT9k3/xH5dGvbHyQ/9DAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/dc53e1be42fc6b9905e363db2df24dc8/975e9/algov.png","srcSet":"/static/dc53e1be42fc6b9905e363db2df24dc8/59114/algov.png 100w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/1da22/algov.png 200w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/975e9/algov.png 400w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/ae73d/algov.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/dc53e1be42fc6b9905e363db2df24dc8/65515/algov.webp 100w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/d4a43/algov.webp 200w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/d3627/algov.webp 400w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/f9708/algov.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":190}}}},"links":[{"type":"github","url":"https://github.com/BozinovskiDaniel/AlgoVisualise"},{"type":"external","url":"https://5ec7616dce81309552610cd1--wonderful-shaw-b4b1f9.netlify.app/"}],"tags":["React JS","Javascript","Path-Finding","Sorting"],"title":"AlgoVisualise","visible":true},{"category":"✈️ Holiday Planning Application","description":"Full-stack application that allows users to enter a location, add hotels, attractions and experiences to create an Itinerary for their holiday","image":{"alt":"Holiday Planning Application","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJElEQVQozwEZA+b8AODf3+Ph4dXV1bzDyr3Dyp2ywHmetpWuvq26w6y6xcXIzLS+xq+7xKq4xKS2w6O2wqO2wqa3xKm6xrG/yADS0tPa2tnW2NjFys65wsqsusaUrb6svMfU1dbN0NLGy8/CyM66w8q0vsexvcavu8W4wMjIys3Lzc/GycsAu8DEv8LGu8HGvcPIxcjLwcXKxMfK09LR3t3c1tjZ1dfY2NnZ1dbYxcjMsLvFqbnEqrnFprjEnrPBnLG/AK60vbO5wLm9wri8wbi7wL/Aw97d3dzd4NTY3NTZ3dre49rf49nf49ng5cbR2pequI+ks4ScrX2Yq4CYqQCwt76qr7ain5+mqKyfrLeSo7CtusTDytHN0dXN0tfIzdLGzdPHz9fDz9ervclzkaVrip5mhJdkgpZggZUAxMbJqaantrOyvrKosba9o6u0srzI0tbg5OXr3uDn0tXczdDZ0dfhytThrcDQeJaqfJiqhJytgZqseZSmAMHFyp2SkKePgqWDbqKho5+osrSzpdPLstvRuNrUu9bOtsvHsMbGscTEr6awp2aHnGiInGqIm2aFmVx+kgCysbKZa02hZ0Gxbz2jfWKHlaSdlWOunlu9qmmliECxm1u0qGmonV6lnFyMj2RPcohOcYdNcIVKboRJbYIAop2dwYJP059z36Rsw5BidYGPY3iSdYihfI6mVFBgW2BzWHCKT3CQT3KTQmmIQ2h+RGd8QmV7PmJ4OF50AJaXndOdaOS2g+e/kNKsgmVzg05leFNpeWt8iXJsb2JOSERLTz9keDdabDJabihWbSJOZCNQZiZSaSZTagB8fonPrIfmyKTk1cHfwZyWhHp9cWpmZWl2cXWnh3VVSVFBSFFAUV44Slc2R1QzSFYvRFItRVQpQ1ElP00Ajm9h1qyE6c6o5sSc5LmG6qpsnHddZVlidGBij3VucGVwVFNdUVdjVl5sQUVOQzs9Qzw/Pzo8PTk7OTQ2ALV4S9KYYd6ma86NT+ClZ8KSYEpGTlVOW2FTVoRtaGZaZFpPVkJKVk9aaT9NXCswNjk2ODU0NjQyNTIxM9OX0P7rpYdvAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/faee5f4aa4c9155201f876f071e862c7/f110f/voyit.png","srcSet":"/static/faee5f4aa4c9155201f876f071e862c7/edfae/voyit.png 100w,\\n/static/faee5f4aa4c9155201f876f071e862c7/40cd2/voyit.png 200w,\\n/static/faee5f4aa4c9155201f876f071e862c7/f110f/voyit.png 400w,\\n/static/faee5f4aa4c9155201f876f071e862c7/84613/voyit.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/faee5f4aa4c9155201f876f071e862c7/de0f8/voyit.webp 100w,\\n/static/faee5f4aa4c9155201f876f071e862c7/634c8/voyit.webp 200w,\\n/static/faee5f4aa4c9155201f876f071e862c7/79fd0/voyit.webp 400w,\\n/static/faee5f4aa4c9155201f876f071e862c7/ed70a/voyit.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":250}}}},"links":[{"type":"github","url":"https://github.com/BozinovskiDaniel/VoyIt"},{"type":"external","url":"https://www.youtube.com/watch?v=N-91mkDlMCI&feature=youtu.be&ab_channel=DanielBozinovski"}],"tags":["React JS","Trip-advisor API","Redux"],"title":"VoyIt","visible":true},{"category":"🏢 Hotel Booking Website (Frontend)","description":"Front-end application for a hotel booking website (No backend)","image":{"alt":"Hotel Booking Frontend","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAADBElEQVQozzXC7VPadgAA4OxumyUvBJJfEggkhCRACAQCRCYiKL6UYT0q4lF8aYetoFhEipZqp9W6MufqTe15tlq927ze2ds+rXf7/3b7sOceCIZRHLdaSQrFLCYT8l8YNcEYjJh7ekx3TAiMmL/+5tuvIAhGcbMVYBhpRmwoRiI4AZXLy43mTq3xuto8qDV+Wlrt1lu/NNaPFpa3IrpRKC5s7V+vrL0ReS47Xlzf/Vjd3W5ebVR2f/1+Zh1aXGi3mjvP2t3nW6cvXp5uv77aO7jZe3P9+ElbcgmF+3P7+xf3ckWVd6QMY+rB0ly99eTHTvXVudcfgYqTj2qVtdbTl5sbPx923789vDw5/v3qw58X7246jc7bvcNXGzv3RkeXK4+f1p49371IJrM+t2p8NyLyHOR0uhKhcDKorq+8ODu6XFlcbtXX/v705fPl7fuj8y+f/zk/vixPlTY7e8cnNxP5WS/PBnhGcdIBjoFYmmIAqTvB/NhwtTxbn5vfrC6ulMv3R8cKw8MHlenb7v7t1V/XZ5/OT/+YGMkOBd2DPjbisKRDKlTuC2QCYlF3t1Oe9qCSVRwljZMoMwfwtI//bXrgXWmou9ru1JqrP9QKo7mgU+QRc9wBPCwF5WOBfq+rV+ZkGlfsgKdJhQUUBuMogmOowtIR3kZbMAyFsZ47tACnqkJ6SUwatqxkgyjCSuFmDEU5YGUsmN2CSJRFZGmWsLhJNMDgISeQbQRLYHYcC0pEZtyVyfGDIVs9LkIuWdG1UCig5fv0iOKV3IIkuAaD3qyujEf9D/r1maF4StfCfn/IK2uy3Cf7Eh6l3+cZUARoJp+fnyycNSs37UcjdyfU9PjC1NT2w+mTpdJpc/ZhbqyUSU6mBrKJxFivcTcey0TDvao/5vMaXhlKR8OpmD6Zjuf6YpoWdilawogFw3o0GjOisYiq+iVJ88gBWfJLkiqJftEtOFjB6fDwHEQAQJDAbCVxAlAAMBQgSJJhGCfHcTzHC4LNbgcURdH0/xmaYex2lnU4/gVkTL8KzgwuiAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/90e4e85c337dabbb16c730a2f1c2be02/f110f/hotelcoco.png","srcSet":"/static/90e4e85c337dabbb16c730a2f1c2be02/edfae/hotelcoco.png 100w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/40cd2/hotelcoco.png 200w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/f110f/hotelcoco.png 400w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/84613/hotelcoco.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/90e4e85c337dabbb16c730a2f1c2be02/de0f8/hotelcoco.webp 100w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/634c8/hotelcoco.webp 200w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/79fd0/hotelcoco.webp 400w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/ed70a/hotelcoco.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":250}}}},"links":[{"type":"github","url":"https://github.com/BozinovskiDaniel/Hotel-CoCo"},{"type":"external","url":"https://bozinovskidaniel.github.io/Hotel-CoCo/"}],"tags":["HTML","CSS","jQuery","SASS"],"title":"Hotel CoCo","visible":true}]}]}}}');
+module.exports = JSON.parse('{"data":{"allProjectsJson":{"sections":[{"button":{"label":"See More on Github","url":"https://github.com/bozinovskidaniel","visible":true},"projects":[{"category":"💡 Algorithm Visualiser","description":"React JS Application for visualising Path Finding & Sorting Algorithms, including Dijkstra\'s, A*, Breadth First Search, Depth First Search and Greedy BFS.","image":{"alt":"Algorithm Visualiser","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAAsTAAALEwEAmpwYAAACZElEQVQozz3R308SAQDA8ftresqtB8ryR5qmJQVPvbg119p6aOXqtbXV2vrhFikloSgItimXF0LcSRaSutTrwIMI8BcCHicc4nH8OO7Ou0OuXFvb9/Xz9AUYQYTzVKYqCGKtxEsVQWKPZFE8XqQP/SWaF+vMkczw0v9oTirwEivVi4IMvKcSzT70phl6aHXeszrvW539Nlf/GNRsAPtCO2jy4IVlZhjyvJuZ04PIqPNbpsgVBXl7P09zItDp31Kv7bV/32j1bbQuxFoWYk2+7bNIuGHApsbI7ll0wAZxopw4YAi6nKbLh5xY4KW3ILLPsECXP6ZGSY2f0OKZK77YBTN8a4fsxSINOnu3P6dyh9t1UFxQuCNZUhTHEhYlchWprgfhE2yjdjuwSM8qoVlPtyJhtWF4OmFyhZ+8RJ7eCQUfYF7D4mMoMp6vVhVFGZn9GtghWFkZAmGywAKCrEwzZE9oWxvKX/ZGzxvBFsfP6xPWDxQ0mgQn9qb0gcEbsMMZ3Iymss/MH/FdsiQeD4IIQVeAWDrn/7X1aMXX5FpqNMFnhuwdSEA1hlzCy+1ruXOLZNv4vAletrgXbJ6luwPGyF6Wleq6KVeGYQETHmoYmWmzeBotbpVxtvNL6OKnFZUB0mKpq8sbvYHor1KFl+qsXFMUZcLtXY+nqzUF9K5SJQ4oyLU3WaoTJ7TBnCaY1QSpjjn89PMxld5+SjfZN2k3Q57XU5+D8XRNUYyOeXz3BBcF+eRzWZCLvPgqkexC4+q1VA+aUmPENTTV9SN+O7z5mykessIBKxQ4sSweJ3NMtsT9k3/xH5dGvbHyQ/9DAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/dc53e1be42fc6b9905e363db2df24dc8/975e9/algov.png","srcSet":"/static/dc53e1be42fc6b9905e363db2df24dc8/59114/algov.png 100w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/1da22/algov.png 200w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/975e9/algov.png 400w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/ae73d/algov.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/dc53e1be42fc6b9905e363db2df24dc8/65515/algov.webp 100w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/d4a43/algov.webp 200w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/d3627/algov.webp 400w,\\n/static/dc53e1be42fc6b9905e363db2df24dc8/f9708/algov.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":190}}}},"links":[{"type":"github","url":"https://github.com/BozinovskiDaniel/AlgoVisualise"},{"type":"external","url":"https://5ec7616dce81309552610cd1--wonderful-shaw-b4b1f9.netlify.app/"}],"tags":["React JS","Javascript","Path-Finding","Sorting"],"title":"AlgoVisualise","visible":true},{"category":"✈️ Holiday Planning Application","description":"Full-stack application that allows users to enter a location, add hotels, attractions and experiences to create an Itinerary for their holiday","image":{"alt":"Holiday Planning Application","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJElEQVQozwEZA+b8AODf3+Ph4dXV1bzDyr3Dyp2ywHmetpWuvq26w6y6xcXIzLS+xq+7xKq4xKS2w6O2wqO2wqa3xKm6xrG/yADS0tPa2tnW2NjFys65wsqsusaUrb6svMfU1dbN0NLGy8/CyM66w8q0vsexvcavu8W4wMjIys3Lzc/GycsAu8DEv8LGu8HGvcPIxcjLwcXKxMfK09LR3t3c1tjZ1dfY2NnZ1dbYxcjMsLvFqbnEqrnFprjEnrPBnLG/AK60vbO5wLm9wri8wbi7wL/Aw97d3dzd4NTY3NTZ3dre49rf49nf49ng5cbR2pequI+ks4ScrX2Yq4CYqQCwt76qr7ain5+mqKyfrLeSo7CtusTDytHN0dXN0tfIzdLGzdPHz9fDz9ervclzkaVrip5mhJdkgpZggZUAxMbJqaantrOyvrKosba9o6u0srzI0tbg5OXr3uDn0tXczdDZ0dfhytThrcDQeJaqfJiqhJytgZqseZSmAMHFyp2SkKePgqWDbqKho5+osrSzpdPLstvRuNrUu9bOtsvHsMbGscTEr6awp2aHnGiInGqIm2aFmVx+kgCysbKZa02hZ0Gxbz2jfWKHlaSdlWOunlu9qmmliECxm1u0qGmonV6lnFyMj2RPcohOcYdNcIVKboRJbYIAop2dwYJP059z36Rsw5BidYGPY3iSdYihfI6mVFBgW2BzWHCKT3CQT3KTQmmIQ2h+RGd8QmV7PmJ4OF50AJaXndOdaOS2g+e/kNKsgmVzg05leFNpeWt8iXJsb2JOSERLTz9keDdabDJabihWbSJOZCNQZiZSaSZTagB8fonPrIfmyKTk1cHfwZyWhHp9cWpmZWl2cXWnh3VVSVFBSFFAUV44Slc2R1QzSFYvRFItRVQpQ1ElP00Ajm9h1qyE6c6o5sSc5LmG6qpsnHddZVlidGBij3VucGVwVFNdUVdjVl5sQUVOQzs9Qzw/Pzo8PTk7OTQ2ALV4S9KYYd6ma86NT+ClZ8KSYEpGTlVOW2FTVoRtaGZaZFpPVkJKVk9aaT9NXCswNjk2ODU0NjQyNTIxM9OX0P7rpYdvAAAAAElFTkSuQmCC"},"images":{"fallback":{"src":"/static/faee5f4aa4c9155201f876f071e862c7/f110f/voyit.png","srcSet":"/static/faee5f4aa4c9155201f876f071e862c7/edfae/voyit.png 100w,\\n/static/faee5f4aa4c9155201f876f071e862c7/40cd2/voyit.png 200w,\\n/static/faee5f4aa4c9155201f876f071e862c7/f110f/voyit.png 400w,\\n/static/faee5f4aa4c9155201f876f071e862c7/84613/voyit.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/faee5f4aa4c9155201f876f071e862c7/de0f8/voyit.webp 100w,\\n/static/faee5f4aa4c9155201f876f071e862c7/634c8/voyit.webp 200w,\\n/static/faee5f4aa4c9155201f876f071e862c7/79fd0/voyit.webp 400w,\\n/static/faee5f4aa4c9155201f876f071e862c7/ed70a/voyit.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":250}}}},"links":[{"type":"github","url":"https://github.com/BozinovskiDaniel/VoyIt"},{"type":"external","url":"https://www.youtube.com/watch?v=N-91mkDlMCI&feature=youtu.be&ab_channel=DanielBozinovski"}],"tags":["React JS","Trip-advisor API","Redux"],"title":"VoyIt","visible":true},{"category":"🏢 Hotel Booking","description":"Front-end application for a hotel booking website (No backend)","image":{"alt":"Hotel Booking Frontend","src":{"childImageSharp":{"gatsbyImageData":{"layout":"constrained","placeholder":{"fallback":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAADBElEQVQozzXC7VPadgAA4OxumyUvBJJfEggkhCRACAQCRCYiKL6UYT0q4lF8aYetoFhEipZqp9W6MufqTe15tlq927ze2ds+rXf7/3b7sOceCIZRHLdaSQrFLCYT8l8YNcEYjJh7ekx3TAiMmL/+5tuvIAhGcbMVYBhpRmwoRiI4AZXLy43mTq3xuto8qDV+Wlrt1lu/NNaPFpa3IrpRKC5s7V+vrL0ReS47Xlzf/Vjd3W5ebVR2f/1+Zh1aXGi3mjvP2t3nW6cvXp5uv77aO7jZe3P9+ElbcgmF+3P7+xf3ckWVd6QMY+rB0ly99eTHTvXVudcfgYqTj2qVtdbTl5sbPx923789vDw5/v3qw58X7246jc7bvcNXGzv3RkeXK4+f1p49371IJrM+t2p8NyLyHOR0uhKhcDKorq+8ODu6XFlcbtXX/v705fPl7fuj8y+f/zk/vixPlTY7e8cnNxP5WS/PBnhGcdIBjoFYmmIAqTvB/NhwtTxbn5vfrC6ulMv3R8cKw8MHlenb7v7t1V/XZ5/OT/+YGMkOBd2DPjbisKRDKlTuC2QCYlF3t1Oe9qCSVRwljZMoMwfwtI//bXrgXWmou9ru1JqrP9QKo7mgU+QRc9wBPCwF5WOBfq+rV+ZkGlfsgKdJhQUUBuMogmOowtIR3kZbMAyFsZ47tACnqkJ6SUwatqxkgyjCSuFmDEU5YGUsmN2CSJRFZGmWsLhJNMDgISeQbQRLYHYcC0pEZtyVyfGDIVs9LkIuWdG1UCig5fv0iOKV3IIkuAaD3qyujEf9D/r1maF4StfCfn/IK2uy3Cf7Eh6l3+cZUARoJp+fnyycNSs37UcjdyfU9PjC1NT2w+mTpdJpc/ZhbqyUSU6mBrKJxFivcTcey0TDvao/5vMaXhlKR8OpmD6Zjuf6YpoWdilawogFw3o0GjOisYiq+iVJ88gBWfJLkiqJftEtOFjB6fDwHEQAQJDAbCVxAlAAMBQgSJJhGCfHcTzHC4LNbgcURdH0/xmaYex2lnU4/gVkTL8KzgwuiAAAAABJRU5ErkJggg=="},"images":{"fallback":{"src":"/static/90e4e85c337dabbb16c730a2f1c2be02/f110f/hotelcoco.png","srcSet":"/static/90e4e85c337dabbb16c730a2f1c2be02/edfae/hotelcoco.png 100w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/40cd2/hotelcoco.png 200w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/f110f/hotelcoco.png 400w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/84613/hotelcoco.png 800w","sizes":"(min-width: 400px) 400px, 100vw"},"sources":[{"srcSet":"/static/90e4e85c337dabbb16c730a2f1c2be02/de0f8/hotelcoco.webp 100w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/634c8/hotelcoco.webp 200w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/79fd0/hotelcoco.webp 400w,\\n/static/90e4e85c337dabbb16c730a2f1c2be02/ed70a/hotelcoco.webp 800w","type":"image/webp","sizes":"(min-width: 400px) 400px, 100vw"}]},"width":400,"height":250}}}},"links":[{"type":"github","url":"https://github.com/BozinovskiDaniel/Hotel-CoCo"},{"type":"external","url":"https://bozinovskidaniel.github.io/Hotel-CoCo/"}],"tags":["HTML","CSS","jQuery","SASS"],"title":"Hotel CoCo","visible":true}]}]}}}');
 
 /***/ }),
 
@@ -60798,29 +60607,29 @@ module.exports = JSON.parse('{"data":{"allHeroJson":{"sections":[{"description":
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"data":{"allLegalSection":{"sections":[{"html":"<h4>Information pursuant to § 5 TMG</h4>\\n<p>YOURNAME<br />\\nYOURSTREET<br />\\nYOURCITY<br />\\nYOURCOUNTRY</p>\\n<p>E-Mail Address: <u><a href=\\"mailto:YOURMAIL@DOMAIN.COM\\">YOURMAIL@DOMAIN.COM</a></u></p>\\n<hr>\\n<h4>Liability for Contents</h4>\\n<p>As service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.</p>\\n<p>Legal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.</p>\\n<hr>\\n<h4>Liability for Links</h4>\\n<p>Our offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.</p>\\n<p>The linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.</p>\\n<hr>\\n<h4>Copyright</h4>\\n<p>Contents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only. The commercial use of our contents without permission of the originator is prohibited.</p>\\n<p>Copyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately.</p>","frontmatter":{"sectionId":"imprint"}},{"html":"<p>Your privacy is important to me. It is my, Daniel Bozinovski\'s, policy to respect your privacy regarding any information I may collect from you across my website, BozinovskiDaniel.com.</p>\\n<p>I only ask for personal information when I truly need it to provide a service to you. I collect it by fair and lawful means, with your knowledge and consent. I also let you know why I am collecting it and how it will be used.</p>\\n<p>I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I\'ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.</p>\\n<p>I don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>\\n<p>My website may link to external sites that are not operated by me. Please be aware that I have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>\\n<p>You are free to refuse my request for your personal information, with the understanding that I may be unable to provide you with some of your desired services.</p>\\n<p>Your continued use of my website will be regarded as acceptance of my practices around privacy and personal information. If you have any questions about how I handle user data and personal information, feel free to contact me.</p>\\n<p>This policy is effective as of 22 August 2021. It has been generated with the help of GetTerms.io.</p>","frontmatter":{"sectionId":"privacy"}}]}}}');
+module.exports = JSON.parse('{"data":{"allLegalSection":{"sections":[{"html":"<p>Your privacy is important to me. It is my, Daniel Bozinovski\'s, policy to respect your privacy regarding any information I may collect from you across my website, BozinovskiDaniel.com.</p>\\n<p>I only ask for personal information when I truly need it to provide a service to you. I collect it by fair and lawful means, with your knowledge and consent. I also let you know why I am collecting it and how it will be used.</p>\\n<p>I only retain collected information for as long as necessary to provide you with your requested service. What data I store, I\'ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorised access, disclosure, copying, use or modification.</p>\\n<p>I don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>\\n<p>My website may link to external sites that are not operated by me. Please be aware that I have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>\\n<p>You are free to refuse my request for your personal information, with the understanding that I may be unable to provide you with some of your desired services.</p>\\n<p>Your continued use of my website will be regarded as acceptance of my practices around privacy and personal information. If you have any questions about how I handle user data and personal information, feel free to contact me.</p>\\n<p>This policy is effective as of 22 August 2021. It has been generated with the help of GetTerms.io.</p>","frontmatter":{"sectionId":"privacy"}},{"html":"<h4>Information pursuant to § 5 TMG</h4>\\n<p>YOURNAME<br />\\nYOURSTREET<br />\\nYOURCITY<br />\\nYOURCOUNTRY</p>\\n<p>E-Mail Address: <u><a href=\\"mailto:YOURMAIL@DOMAIN.COM\\">YOURMAIL@DOMAIN.COM</a></u></p>\\n<hr>\\n<h4>Liability for Contents</h4>\\n<p>As service providers, we are liable for own contents of these websites according to Sec. 7, paragraph 1 German Telemedia Act (TMG). However, according to Sec. 8 to 10 German Telemedia Act (TMG), service providers are not obligated to permanently monitor submitted or stored information or to search for evidences that indicate illegal activities.</p>\\n<p>Legal obligations to removing information or to blocking the use of information remain unchallenged. In this case, liability is only possible at the time of knowledge about a specific violation of law. Illegal contents will be removed immediately at the time we get knowledge of them.</p>\\n<hr>\\n<h4>Liability for Links</h4>\\n<p>Our offer includes links to external third party websites. We have no influence on the contents of those websites, therefore we cannot guarantee for those contents. Providers or administrators of linked websites are always responsible for their own contents.</p>\\n<p>The linked websites had been checked for possible violations of law at the time of the establishment of the link. Illegal contents were not detected at the time of the linking. A permanent monitoring of the contents of linked websites cannot be imposed without reasonable indications that there has been a violation of law. Illegal links will be removed immediately at the time we get knowledge of them.</p>\\n<hr>\\n<h4>Copyright</h4>\\n<p>Contents and compilations published on these websites by the providers are subject to German copyright laws. Reproduction, editing, distribution as well as the use of any kind outside the scope of the copyright law require a written permission of the author or originator. Downloads and copies of these websites are permitted for private use only. The commercial use of our contents without permission of the originator is prohibited.</p>\\n<p>Copyright laws of third parties are respected as long as the contents on these websites do not originate from the provider. Contributions of third parties on this site are indicated as such. However, if you notice any violations of copyright law, please inform us. Such contents will be removed immediately.</p>","frontmatter":{"sectionId":"imprint"}}]}}}');
 
 /***/ }),
 
 /***/ "react-dom/server":
-/*!**********************************************************************************************************************!*\
-  !*** external "/Users/Bozinovski/Desktop/Home/minimal-portfolio/portfolio-minimal/node_modules/react-dom/server.js" ***!
-  \**********************************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** external "/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/react-dom/server.js" ***!
+  \****************************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/Bozinovski/Desktop/Home/minimal-portfolio/portfolio-minimal/node_modules/react-dom/server.js");;
+module.exports = require("/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/react-dom/server.js");;
 
 /***/ }),
 
 /***/ "react":
-/*!*****************************************************************************************************************!*\
-  !*** external "/Users/Bozinovski/Desktop/Home/minimal-portfolio/portfolio-minimal/node_modules/react/index.js" ***!
-  \*****************************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** external "/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/react/index.js" ***!
+  \***********************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/Bozinovski/Desktop/Home/minimal-portfolio/portfolio-minimal/node_modules/react/index.js");;
+module.exports = require("/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/react/index.js");;
 
 /***/ }),
 

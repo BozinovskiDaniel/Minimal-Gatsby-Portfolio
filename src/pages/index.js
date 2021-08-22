@@ -13,7 +13,7 @@ import {
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Daniel Bozinovski Portfolio" />
+      <Seo title="Daniel Bozinovski | Software Engineer" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <ArticlesSection
@@ -24,7 +24,7 @@ export default function IndexPage() {
         <AboutSection sectionId="about" heading="About Me" />
         <InterestsSection sectionId="skills" heading="Skills" />
         <ProjectsSection sectionId="projects" heading="Projects" />
-        <ContactSection sectionId="github" heading="Issues?" />
+        <ContactSection sectionId="contact" heading="Conact Me" />
       </Page>
     </>
   );
