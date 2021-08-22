@@ -1,14 +1,15 @@
 ---
-imageSrc: "../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg"
+imageSrc: "../../images/me-cropped.jpg"
 imageAlt: "About Me"
 ---
 
-hello is a Gatsby Theme that creates outstanding one-pages portfolio within minutes!
+Hello! I’m <b><i>Daniel Bozinovski.</i></b> Software Engineer based in Sydney, Australia. I have rich experience in building Full-stack software applications and am currently pursuing to expand my knowledge within Machine Learning.
 
-It has predefined sections for your bio, skills, projects, and contact details. If you are a writer on Medium, you can integrate your latest articles in a distinct section as well. While building the theme, I tried to keep the setup as simple as possible while keeping everything configurable if you like to.
+My skills entail some of the following Languages/Frameworks:
 
-Using theme composition, you can easily customize the CSS theme to your own preferences - e.g. change colors, fonts, etc.
-
-Last but not least, it has some cool features you can opt-in to: Dark Mode, Splash Screen, Cookie Banner, and more to find out :)
-
-Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link"><u>Charles Deluvio</u></a> on Unsplash
+<b>
+Python, Javascript, C,
+React JS, Node JS, Express JS,
+HTML5/CSS3, SASS, jQuery,
+Amazon Web Services (AWS)
+</b>
