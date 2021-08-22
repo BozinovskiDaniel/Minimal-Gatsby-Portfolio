@@ -11,18 +11,18 @@
     "social": {
       "behance": "https://behance.com",
       "github": "https://github.com/BozinovskiDaniel",
-      "medium": "https://medium.com/@bozinovskidaniel",
+      "medium": "https://medium.com/@ODSC",
       "linkedin": "https://www.linkedin.com/in/daniel-bozinovski-29579b191/",
       "mail": "mailto:bozinovskidaniel@hotmail.com"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "BozinovskiDaniel" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
+        { "label": "Projects", "url": "/#projects" },
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {

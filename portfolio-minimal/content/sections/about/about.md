@@ -11,5 +11,5 @@ My skills entail some of the following Languages/Frameworks:
 Python, Javascript, C,
 React JS, Node JS, Express JS,
 HTML5/CSS3, SASS, jQuery,
-Amazon Web Services (AWS)
+AWS
 </b>

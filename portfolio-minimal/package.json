@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
+  "name": "daniel-bozinovski-portfolio",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "description": "My Minimalistic Portfolio",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
@@ -14,15 +14,15 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "author": "Daniel Bozinovski <bozinovskidaniel@hotmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
+  "homepage": "https://github.com/BozinovskiDaniel/Minimal-Gatsby-Portfolio#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
+    "url": "https://github.com/BozinovskiDaniel/Minimal-Gatsby-Portfolio"
   },
   "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+    "url": "https://github.com/BozinovskiDaniel/Minimal-Gatsby-Portfolio"
   },
   "keywords": [
     "react",
