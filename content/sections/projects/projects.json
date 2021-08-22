@@ -23,6 +23,27 @@
     },
     {
       "visible": true,
+      "category": "⚕️ Medical Image Classification",
+      "title": "Pneumonia Classifier",
+      "description": "Project that attempts to accurately detect signs of Pneumonia in patients CT-scans, utilising an ensemble of standard models such as Boosted Classifiers/Random forests and a variety of Deep Learning models including Convolutional Neural Networks and MobileNet w/ Transfer Learning.",
+      "tags": ["Python", "Deep Learning", "Image Classification"],
+      "image": {
+        "src": "../../images/pneumonia-clf.jpg",
+        "alt": "Image classification"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/BozinovskiDaniel/Pneumonia-Imaging-Classifier"
+        },
+        {
+          "type": "external",
+          "url": "pneumonia-classification/"
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "✈️ Holiday Planning Application",
       "title": "VoyIt",
       "description": "Full-stack application that allows users to enter a location, add hotels, attractions and experiences to create an Itinerary for their holiday",

@@ -1,5 +1,5 @@
 ---
-title: "RSNA Pneumonia Medical Imaging Classification using Python"
+title: "Pneumonia Medical Imaging Classification using Python"
 description: "This description will be used for the article listing and search results on Google."
 date: "2021-08-22"
 banner:
@@ -8,7 +8,6 @@ banner:
   caption: 'Photo by <u><a href="https://www.pexels.com/photo/technology-computer-room-doctor-7088524/">Mart Production</a></u>'
 categories:
   - "Machine Learning"
-  - "Data Science"
 keywords:
   - "Python"
   - "Binary Image Classification"
