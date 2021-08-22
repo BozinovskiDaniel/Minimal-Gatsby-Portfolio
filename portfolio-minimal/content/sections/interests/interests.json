@@ -10,49 +10,63 @@
     {
       "label": "Javascript",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/javascript.png",
         "alt": ""
       }
     },
     {
-      "label": "Machine Learning",
+      "label": "React",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/react.png",
         "alt": ""
       }
     },
     {
-      "label": "React JS",
+      "label": "Node",
       "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Node JS",
-      "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/node.png",
         "alt": ""
       }
     },
     {
       "label": "Redux",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/redux.png",
         "alt": ""
       }
     },
     {
-      "label": "HTML/CSS",
+      "label": "HTML",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/html.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "CSS",
+      "image": {
+        "src": "../../images/css.png",
         "alt": ""
       }
     },
     {
       "label": "AWS",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/aws.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "SQL",
+      "image": {
+        "src": "../../images/sql.jpeg",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Machine Learning",
+      "image": {
+        "src": "../../images/ml.png",
         "alt": ""
       }
     }

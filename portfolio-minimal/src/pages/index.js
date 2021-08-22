@@ -22,7 +22,7 @@ export default function IndexPage() {
           sources={["Medium"]}
         />
         <AboutSection sectionId="about" heading="About Me" />
-        <InterestsSection sectionId="details" heading="Details" />
+        <InterestsSection sectionId="skills" heading="Skills" />
         <ProjectsSection sectionId="projects" heading="Projects" />
         <ContactSection sectionId="github" heading="Issues?" />
       </Page>
