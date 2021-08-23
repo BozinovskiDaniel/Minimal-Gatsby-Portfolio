@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My Minimalistic Portfolio",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
     "build": "gatsby build",
@@ -35,5 +36,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }

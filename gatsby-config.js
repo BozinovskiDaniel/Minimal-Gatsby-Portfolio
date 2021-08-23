@@ -1,9 +1,10 @@
 module.exports = {
   plugins: [
     {
+      pathPrefix: "/Minimal-Gatsby-Portfolio",
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
+        // siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
         manifestSettings: {
           favicon: "./content/images/mountain.png", // Path is relative to the root
           siteName: "BozinovskiDaniel", // Used in manifest.json

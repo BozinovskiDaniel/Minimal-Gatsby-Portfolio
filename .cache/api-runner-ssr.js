@@ -7,10 +7,6 @@ var plugins = [{
       plugin: require('/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      name: 'gatsby-plugin-sitemap',
-      plugin: require('/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
-      options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
-    },{
       name: 'gatsby-plugin-manifest',
       plugin: require('/Users/Bozinovski/Desktop/Home/minimal-portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"BozinovskiDaniel","short_name":"Bozinovski","start_url":"/","background_color":"#FFFFFF","theme_color":"#000000","display":"minimal-ui","icon":"./content/images/mountain.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"a3a73613276dea9ab721e5096e3c92a6"},
