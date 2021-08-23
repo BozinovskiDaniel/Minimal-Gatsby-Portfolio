@@ -1,0 +1,2 @@
+(self.webpackChunkdaniel_bozinovski_portfolio=self.webpackChunkdaniel_bozinovski_portfolio||[]).push([[683],{6231:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return r}});var i=t(7294),l=t(7696);function r(){return i.createElement(i.Fragment,null,i.createElement(l.pQ,{title:"Imprint",useTitleTemplate:!0,noIndex:!0}),i.createElement(l.T3,null,i.createElement(l.Ek,{sectionId:"imprint",heading:"Imprint"})))}}}]);
+//# sourceMappingURL=component---src-pages-imprint-js-cbb34f74e6db21b96a37.js.map

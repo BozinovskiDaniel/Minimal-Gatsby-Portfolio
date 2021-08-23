@@ -1,0 +1,2 @@
+(self.webpackChunkdaniel_bozinovski_portfolio=self.webpackChunkdaniel_bozinovski_portfolio||[]).push([[844],{1135:function(e,n,t){"use strict";t.r(n),t.d(n,{default:function(){return o}});var i=t(7294),l=t(7696);function o(){return i.createElement(i.Fragment,null,i.createElement(l.pQ,{title:"Privacy Policy",useTitleTemplate:!0,noIndex:!0}),i.createElement(l.T3,null,i.createElement(l.Ek,{sectionId:"privacy",heading:"Privacy Policy"})))}}}]);
+//# sourceMappingURL=component---src-pages-privacy-js-92ad73017f34f0934a60.js.map
